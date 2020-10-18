@@ -1,0 +1,8 @@
+*.exe
+*.o
+*.DS_Store
+*.dev
+*.layout
+.main.c.swp
+main.c~
+*.log
