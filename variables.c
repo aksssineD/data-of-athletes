@@ -7,5 +7,9 @@
 struct ath {char surname[10]; int number; float score;}t1;
 struct ath athlete;
 
-char c;
+struct ath tmp_struct1; 
+struct ath tmp_struct2;
+
+int i;
+char c, ch, ath[10];
 

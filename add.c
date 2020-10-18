@@ -2,9 +2,8 @@
 #include "variables.c"
 
 void add(FILE *tf){
-	char ch;
-	tf=fopen("athletes.dat", "ab");//Открытие бинарного файла для добавления
-	system("CLS");//clrscr();
+	tf=fopen("athletes.dat", "ab");
+	system("CLS");
 	printf("\n Input data \n");
 	do {
 		printf("\n Surname: "); scanf("%s", &t1.surname);
