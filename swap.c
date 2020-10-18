@@ -1,3 +1,4 @@
+//Function of replace 1st and 2nd lines
 #include "variables.c"
 
 void swap(FILE *tf){
