@@ -13,11 +13,11 @@ main(){
 		puts(" 0 - Exit");
 		c=getch();
 		switch(c){
-			case '1':; break;
-			case '2':;break;
-			case '3':;break;
-			case '4':;break;
-			case '5':;break;
+			case '1':input(tf); break;
+			case '2':print(tf);break;
+			case '3':add(tf);break;
+			case '4':find(tf);break;
+			case '5':swap(tf);break;
 			case '0':return(0);
 			default: puts("\n Neverniy regim!");
 		}
