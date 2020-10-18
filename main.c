@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <conio.h>
-#include <string.h>
-#define LEN 100
+#include "variables.c"
 
 main(){
 	char c;
@@ -16,7 +13,7 @@ main(){
 		puts(" 0 - Exit");
 		c=getch();
 		switch(c){
-			case '1':;break;
+			case '1':; break;
 			case '2':;break;
 			case '3':;break;
 			case '4':;break;
