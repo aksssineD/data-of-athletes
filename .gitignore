@@ -3,8 +3,8 @@
 *.DS_Store
 *.dev
 *.layout
+*.dat
+*.win
 .main.c.swp
 main.c~
 *.log
-*.gitignore
-*.win
