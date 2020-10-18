@@ -1,3 +1,4 @@
+//Function of adding information to a file
 #include "variables.c"
 
 void add(FILE *tf){
