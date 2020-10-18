@@ -1,3 +1,4 @@
+//new file creation function
 #include "variables.c"
 
 void input(FILE *tf){
