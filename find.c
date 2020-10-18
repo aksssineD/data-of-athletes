@@ -2,10 +2,9 @@
 #include "variables.c"
 
 void find(FILE *tf){
-	char c, ath[10];
 	long int i;
-	tf=fopen("athletes.dat", "rb+");//Открытие бинарного файла для чтения и записи
-	system("CLS");//clrscrt();
+	tf=fopen("athletes.dat", "rb+");
+	system("CLS");
 	puts("Surname of the athlete");
 	gets(ath);
 	fread(&t1, sizeof(t1), 1, tf);
@@ -18,8 +17,8 @@ void find(FILE *tf){
 				printf("\n Score: "); scanf("%f", &t1.score);
 				printf("\n Number: "); scanf("%d", &t1.number);
 				i=sizeof(t1);
-				fseek(tf, -i, 1);//Возврат на sizeof(t1) байт назад
-				fwrite(&t1,  sizeof(t1), 1, tf);//Запись изменённой структуры на прежнее место
+				fseek(tf, -i, 1);
+				fwrite(&t1,  sizeof(t1), 1, tf);
 				fflush(tf);
 			}
 		}

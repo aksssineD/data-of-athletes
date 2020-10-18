@@ -2,8 +2,6 @@
 #include "variables.c"
 
 void swap(FILE *tf){
-	struct ath tmp_struct1; 
-	struct ath tmp_struct2;
 	int i=sizeof(t1);
 	tf=fopen("athletes.dat","rb");
 	
