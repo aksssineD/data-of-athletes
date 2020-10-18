@@ -1,3 +1,4 @@
+//Function to search and change information about an athlete
 #include "variables.c"
 
 void find(FILE *tf){
