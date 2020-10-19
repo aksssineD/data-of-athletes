@@ -1,4 +1,4 @@
-https://travis-ci.com/aksssineD/data-of-athletes.svg?branch=main
+[![Build Status](https://travis-ci.com/aksssineD/data-of-athletes.svg?branch=main)](https://travis-ci.com/aksssineD/data-of-athletes)
 # data-of-athletes
 1)	Проект: программа, создающая файл, в котором хранятся данные спортсменов (Фамилия, порядковый номер и количество очков). Эта программа пригодна для быстрой записи данных спортсменов в файл.
 2)	На вход подаются три вида данных: Фамилия спортсмена (текст); порядковый номер (целое число) и порядковый номер(символ).
