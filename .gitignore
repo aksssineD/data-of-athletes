@@ -4,6 +4,7 @@
 *.dev
 *.layout
 *.dat
+*.md
 *.win
 .main.c.swp
 main.c~

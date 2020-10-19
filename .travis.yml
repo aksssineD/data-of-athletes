@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 language: c
 compliler: gcc
 dist: xenial
 
+=======
+language: c
+
+script: make Makefile.win
+>>>>>>> bb4f8bdf721f577854e2c576db83c439c5b3390d
