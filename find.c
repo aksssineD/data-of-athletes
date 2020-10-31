@@ -10,7 +10,8 @@ void find(FILE *tf){
 	fread(&t1, sizeof(t1), 1, tf);
 	while (!feof(tf)){
 		if (strcmp(t1.surname, ath)==0){
-			printf(" surname %10s number %6.2d score %f", t1.surname, t1.number, t1.score);
+			printf(" surname %10s number %6.2d score %f", t1.surname,
+			 t1.number, t1.score);
 			printf("\n Change? y/n ");
 			c=getch();
 			if (c=='y'){

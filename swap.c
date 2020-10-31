@@ -27,3 +27,5 @@ void swap(FILE *tf){
 	system("CLS");
 	fclose(tf);
 }
+
+
