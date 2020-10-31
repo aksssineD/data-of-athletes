@@ -4,4 +4,5 @@
 void test(){
 	FILE *tf;
 	find(tf, 1);
+	add(tf, 1);
 }
