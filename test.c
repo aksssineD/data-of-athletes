@@ -6,4 +6,5 @@ void test(){
 	find(tf, 1);
 	add(tf, 1);
 	input(tf, 1);
+	print(tf, 1);
 }
