@@ -20,7 +20,7 @@ main(){
 			case '5':swap(tf);break;
 		
 			case '0':return(0);
-			default: puts("\n Neverniy regim!");
+			default: puts("\n Invalid mode!");
 		}
 	}
 }
