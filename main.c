@@ -4,7 +4,7 @@
 main(){
 	char c;
 	FILE *tf;
-	test_find();
+	test();
 	while (1){
 		//clrscr();
 		puts(" 1 - New file");

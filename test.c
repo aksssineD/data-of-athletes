@@ -1,7 +1,7 @@
 #include <assert.h>
 #include "variables.c"
 
-test_find(){
+void test(){
 	FILE *tf;
 	find(tf, 1);
 }
