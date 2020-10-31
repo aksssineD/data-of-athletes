@@ -6,7 +6,6 @@ main(){
 	FILE *tf;
 	test();
 	while (1){
-		//clrscr();
 		puts(" 1 - New file");
 		puts(" 2 - View file");
 		puts(" 3 - Add to file");
@@ -20,9 +19,9 @@ main(){
 			case '3':add(tf);break;
 			case '4':find(tf);break;
 			case '5':swap(tf);break;
-		
 			case '0':return(0);
 			default: puts("\n Invalid mode!");
 		}
+		
 	}
 }
