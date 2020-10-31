@@ -1,8 +1,9 @@
 //Function to search and change information about an athlete
 #include "variables.c"
 
-void find(FILE *tf){
+void find(FILE *tf, int n){
 	long int i;
+	if (n==0){
 	tf=fopen("athletes.dat", "rb+");
 	system("CLS");
 	puts("Surname of the athlete");
@@ -27,4 +28,11 @@ void find(FILE *tf){
 	}
 	fclose(tf);
 	system("CLS");
+} else {
+	if (tf!=NULL){
+		assert("That's OK");
+	} else {
+		assert("Error of reading");
+	}
+}
 }
