@@ -10,7 +10,7 @@ void input(FILE *tf){
 		printf("\n Number: "); scanf("%d", &t1.number);
 		printf("\n Score: "); scanf("%f", &t1.score);
 		fwrite(&t1, sizeof(t1), 1, tf);
-		printf("\n Zakonchit? y/n \n");
+		printf("\n Finish? y/n \n");
 		ch=getch();
 	}
 	while (ch!='y');
