@@ -1,5 +1,6 @@
 //Function to search and change information about an athlete
 #include "variables.c"
+#include <assert.h>
 
 void find(FILE *tf, int n){
 	long int i;

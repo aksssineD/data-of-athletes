@@ -1,8 +1,10 @@
 #include "variables.c"
+#include <assert.h>
 
 main(){
 	char c;
 	FILE *tf;
+	test_find();
 	while (1){
 		//clrscr();
 		puts(" 1 - New file");
